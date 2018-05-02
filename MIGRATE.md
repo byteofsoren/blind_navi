@@ -72,3 +72,31 @@ i.e
     $ cd
     $ rm -r myrepo
 ```
+## Pushing your updates inside submodules
+There are a slightly different approach to push your modules back to github.
+Let say you have made change in `CMakeList.txt` inside your project and try to
+push the commit to git hub you will get this message.
+
+```bash
+$ git push
+fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+```
+The solution to this is off course to just do as it asks.
+```bash
+    git push origin HEAD:master
+```
+Then the commit is sent to master branch on github.
+The reason for this is possible that if you visit:
+<br /><br />
+https://github.com/byteofsoren/blind_navi/tree/master/src
+<br /><br />
+and click on your work:
+Note that where where you usually find the branch master button it says Tree:
+and a number.
+
+
+
