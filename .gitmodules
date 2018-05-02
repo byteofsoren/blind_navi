@@ -1,0 +1,6 @@
+[submodule "src/priority_ai"]
+	path = src/priority_ai
+	url = https://github.com/byteofsoren/priority_ai.git
+[submodule "src/blindy_findy"]
+	path = src/blindy_findy
+	url = https://github.com/smurkan/blindy_findy.git
