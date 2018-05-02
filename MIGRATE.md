@@ -57,9 +57,14 @@ $ cd
 $ cd catkin_ws
 $ git submodule init
 $ git submodule update
+$ cp ~/.catkin_ws_kinetic_old/devel/ devel -r
 ```
+The last row in the commands was to coppy the devel map so you wont need to
+reinit the ros enviorment (This is a quic fix and can be ignored if you want).
 
 This should pull your submodules form your repos in to this repo.
+The last row in the commands was to coppy the devel map so you wont need to
+reinit the ros enviorment (This is a quic fix and can be ignored if you want).
 If you want to clean up a bit you can delete the old folder in you home directory.
 <br /><br />
 i.e
