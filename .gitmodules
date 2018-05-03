@@ -4,9 +4,6 @@
 [submodule "src/blindy_findy"]
 	path = src/blindy_findy
 	url = https://github.com/smurkan/blindy_findy.git
-[submodule "src/zed-ros-wrapper"]
-	path = src/zed-ros-wrapper
-	url = https://github.com/stereolabs/zed-ros-wrapper.git
 [submodule "src/yolo_depth_fusion"]
 	path = src/yolo_depth_fusion
 	url = https://github.com/green4free/yolo_depth_fusion.git
