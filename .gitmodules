@@ -10,3 +10,6 @@
 [submodule "src/darknet_ros"]
 	path = src/darknet_ros
 	url = https://github.com/green4free/darknet_ros.git
+[submodule "src/zed-ros-wrapper"]
+	path = src/zed-ros-wrapper
+	url = https://github.com/byteofsoren/zed-ros-wrapper.git
