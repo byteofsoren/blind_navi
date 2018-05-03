@@ -7,3 +7,6 @@
 [submodule "src/yolo_depth_fusion"]
 	path = src/yolo_depth_fusion
 	url = https://github.com/green4free/yolo_depth_fusion.git
+[submodule "src/darknet_ros"]
+	path = src/darknet_ros
+	url = https://github.com/green4free/darknet_ros.git
