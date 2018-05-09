@@ -13,3 +13,6 @@
 [submodule "src/zed-ros-wrapper"]
 	path = src/zed-ros-wrapper
 	url = https://github.com/byteofsoren/zed-ros-wrapper.git
+[submodule "src/robospeak"]
+	path = src/robospeak
+	url = https://github.com/FreddeG/robospeak.git
