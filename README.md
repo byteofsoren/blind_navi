@@ -5,6 +5,6 @@ This package contains sub modules installed by using:
 ```$ git submodule add [URL] src/[NAME]```
 
 ### Installation
-This is meant to be used with ROS Kinetic, so first install that.
-Then get this repo by:
+This is meant to be used with ROS Kinetic, so first install that.<br />
+Then get this repo by:<br />
 ```$ git clone --recursive https://github.com/byteofsoren/blind_navi.git ~/catkin_ws```
